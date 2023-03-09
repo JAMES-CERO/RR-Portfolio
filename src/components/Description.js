@@ -2,8 +2,12 @@
 const Description = () => {
   
     const fontStyle = {
-        fontFamily: 'dancingScript'
+        fontFamily: 'dancingScript',
+        fontSize: '3em',
+        backgroundColor: 'lightblue',
+        opacity: 0.8
       }
+    
       
   return (
     <div style={fontStyle}  >
