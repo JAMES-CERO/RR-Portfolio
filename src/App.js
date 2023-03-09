@@ -1,11 +1,20 @@
 
 import './App.css';
+import Banner from './components/Banner';
 import StartButtom from './components/StartButtom';
 
+
 function App() {
+  
+  const bgBTN = {
+    background: 'lightPink'
+}
+
   return (
-    <div className="App">
+    <div style={bgBTN} className="App">
+      <Banner/>
       <StartButtom/>
+      
     </div>
   );
 }
