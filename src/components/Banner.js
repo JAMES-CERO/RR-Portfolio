@@ -2,8 +2,8 @@
 const Banner = () => {
 
     const styleImg = {
-        width: "1200px",
-        heigth: '200px'
+        width: "90em",
+        heigth: '20em'
     }
     
   return (
