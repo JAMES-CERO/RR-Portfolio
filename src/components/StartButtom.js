@@ -20,7 +20,7 @@ const StartButtom = () => {
    
 
     return (
-        <div>
+        <div style={{placeSelf: 'center'}}>
             <Button style={{fontSize:'2vw', background:'lightPink'}} aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick}>
                 Click Here!
             </Button>
