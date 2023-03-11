@@ -1,7 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
 import Description from './components/Description';
-import StartButtom from './components/StartButtom';
+import StartButtom from './StartButtom';
 
 
 function App() {
