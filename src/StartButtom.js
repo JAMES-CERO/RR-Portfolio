@@ -24,13 +24,19 @@ const StartButtom = () => {
         setSelectedItem(item)
         handleClose()
     }
+
+    const githubClick = () => {
+        window.location.href = 'https://github.com/JAMES-CERO'
+    }
     
     let content
     switch (selectedItem) {
         case 'About Me':
             content = <AboutMe />
             break
-        
+        case 'My awesome github\'s repos':
+            githubClick()
+            break
         case 'Contact Me':
             content = <ContactMe />
             break

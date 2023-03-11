@@ -2,8 +2,9 @@
 const Banner = () => {
 
     const styleImg = {
-        width: "89vw",
-        marginTop: '3vw'
+        height: '20vw' , 
+        width: "79vw",
+        marginTop: '1.5vw'
     }
     
   return (
